@@ -6,7 +6,7 @@ const TI={Zone:'treasure-map',Dungeon:'dungeon-gate',Raid:'dragon-head',PvP:'cro
 const ART={Quest:'quest',Dungeon:'dungeon',Raid:'raid',Zone:'zone',PvP:'pvp',Race:'race','Race/Class':'race'};
 const ico=i=>(ART[i.type]&&i.slug!=='hardcore-ruleset')?`<img src="${process.env.BASE_PATH??"/foreverquests/"}img/icon-${ART[i.type]}.webp" alt="${i.type} icon" width="96" height="96" loading="lazy">`:ICON[i.slug==='hardcore-ruleset'?'skull-crack':TI[i.type]]||'';
 D.items.forEach(i=>i.icon=ico(i));
-const BASE=process.env.BASE_PATH??'/foreverquests/';const SITE=(process.env.SITE_ORIGIN??'https://bobcatzd.github.io')+BASE.replace(/\/$/,'');
+const BASE=process.env.BASE_PATH??'/foreverquests/';const SITE=(process.env.SITE_ORIGIN??'https://foreverquests.github.io')+BASE.replace(/\/$/,'');
 const _w=fs.writeFileSync;fs.writeFileSync=(f,d)=>_w(f,String(f).endsWith('.html')?d.replace(new RegExp('(href|src)="/(?!/|'+BASE.slice(1)+')','g'),'$1="'+BASE).replace(/fetch\('\//g,"fetch('"+BASE).replace(/'\/item\//g,"'"+BASE+'item/'):d);
 const NEWS=`<section class="box news"><h2>The Forever Weekly</h2><p>New quests, dungeons and patch changes in WoW: Forever — one email a week.</p>
 <form action="https://example.com/newsletter-placeholder" method="post" onsubmit="event.preventDefault();this.innerHTML='<p>Thanks! (Demo — signup endpoint not connected yet.)</p>'"><input type="email" name="email" required placeholder="you@example.com"><button>Subscribe</button></form></section>`;
