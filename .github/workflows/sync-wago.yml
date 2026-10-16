@@ -1,0 +1,29 @@
+name: Daily Wago sync (auto-publish)
+on:
+  schedule: [{ cron: "17 16 * * *" }]   # ~8am Alaska
+  workflow_dispatch:
+permissions: { contents: write, pages: write, id-token: write }
+concurrency: { group: wago-sync, cancel-in-progress: false }
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    outputs: { changed: "${{ steps.c.outputs.changed }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/sync-wago.mjs
+      - id: c
+        run: |
+          git config user.name "foreverquests-bot"
+          git config user.email "foreverquests-bot@users.noreply.github.com"
+          git add -A src/data.json review
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -m "Wago sync: $(grep -c '' review/log/CHANGELOG.md >/dev/null; date -u +%F) auto-publish"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    uses: ./.github/workflows/pages.yml
+    permissions: { contents: read, pages: write, id-token: write }
