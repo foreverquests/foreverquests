@@ -1,37 +1,362 @@
-{"sources":{
-"W":{"name":"Wowhead – Everything We Know About WoW: Forever (2026-09-12)","url":"https://www.wowhead.com/forever/news/everything-we-know-about-wow-forever-382827"},
-"M":{"name":"METAMMO – Release Date, Beta, Editions (2026-09-13)","url":"https://metammo.com/guides/wow-forever-release-date-beta-and-everything-confirmed"},
-"B":{"name":"Blizzard – Pre-Purchase WoW: Forever announcement","url":"https://pubt.io/view/64908C63AB9F8E89BAA04D9D1F186A361AFD4C26"},
-"Y":{"name":"BlizzCon 2026 – WoW: Forever Deep Dive (video)","url":"https://www.youtube.com/watch?v=nQPS_QSOYCU"}},
-"items":[
-{"slug":"zephras-isle","name":"Zephras Isle","type":"Zone","patch":"launch","level":"1–12","desc":"New zone and the starting zone of the Skyborne race.","src":["W","M"],"unknown":"Quest count and map details not yet published."},
-{"slug":"riverglades","name":"The Riverglades","type":"Zone","patch":"launch","level":"mid-30s to mid-40s","desc":"Brand-new leveling zone.","src":["W","M"]},
-{"slug":"shendralas","name":"Shen'dralas","type":"Zone","patch":"launch","level":"Unknown","desc":"Listed as one of four new zones.","src":["M"],"unknown":"Level range not announced."},
-{"slug":"mount-hyjal","name":"Mount Hyjal (Renewed)","type":"Zone","patch":"launch","level":"Unknown","desc":"Expanded existing zone.","src":["W","M"],"unknown":"Level range not announced."},
-{"slug":"new-dungeons","name":"9 new dungeons (names TBA)","type":"Dungeon","patch":"launch","level":"Unknown","desc":"Blizzard announced nine new dungeons.","src":["W","M"],"unknown":"Individual names, levels and bosses not yet confirmed in our sources. Will be split into separate entries when confirmed."},
-{"slug":"barrow-deeps","name":"Barrow Deeps","type":"Raid","patch":"raids","level":"60 · 10 players","desc":"New 10-player raid, unlocking December 9, 2026.","src":["W","M"]},
-{"slug":"hyjal-summit","name":"Hyjal Summit","type":"Raid","patch":"raids","level":"60 · 20 players","desc":"20-player raid, unlocking December 9, 2026.","src":["W","M"]},
-{"slug":"onyxias-lair","name":"Onyxia's Lair","type":"Raid","patch":"raids","level":"60 · 40 players","desc":"40-player raid in the December 9 lineup.","src":["M"]},
-{"slug":"darkspear-islands-bg","name":"Darkspear Islands Battleground","type":"PvP","patch":"launch","level":"Unknown","desc":"New battleground on the Darkspear Islands.","src":["M"],"unknown":"Format and size not announced."},
-{"slug":"new-quests","name":"~1,000 new quests (list TBA)","type":"Quest","patch":"launch","level":"1–60","desc":"Around 1,000 new quests across revamped and new zones.","src":["W","M"],"unknown":"Individual quests will be added as they are published post-launch."},
-{"slug":"skyborne","name":"Skyborne (new race)","type":"Race","patch":"launch","level":"Starts 1","desc":"Winged elves. Requires Skyborne Heroic Pack ($29.99) or higher.","src":["W","M","B"]},
-{"slug":"undead-paladin","name":"Undead Paladin","type":"Race/Class","patch":"launch","level":"—","desc":"New race/class combination.","src":["W"]},
-{"slug":"skyborne-warrior","name":"Skyborne Warrior","type":"Race/Class","patch":"launch","level":"—","desc":"Skyborne can play warrior.","src":["M"]},
-{"slug":"skyborne-hunter","name":"Skyborne Hunter","type":"Race/Class","patch":"launch","level":"—","desc":"Skyborne can play hunter.","src":["M"]},
-{"slug":"skyborne-rogue","name":"Skyborne Rogue","type":"Race/Class","patch":"launch","level":"—","desc":"Skyborne can play rogue.","src":["M"]},
-{"slug":"skyborne-druid","name":"Skyborne Druid","type":"Race/Class","patch":"launch","level":"—","desc":"Skyborne can play druid.","src":["M"]},
-{"slug":"skyborne-shaman","name":"Skyborne Shaman","type":"Race/Class","patch":"launch","level":"—","desc":"Skyborne can play shaman.","src":["M"]},
-{"slug":"skyborne-mage","name":"Skyborne Mage","type":"Race/Class","patch":"launch","level":"—","desc":"Skyborne can play mage.","src":["M"]},
-{"slug":"rulesets","name":"Rulesets replace realms","type":"System","patch":"launch","level":"—","desc":"Pick Normal, PvP or RP (Hardcore later); each ruleset acts as a mega-realm, factions separate.","src":["Y"]},
-{"slug":"optional-transmog","name":"Optional transmog","type":"System","patch":"launch","level":"—","desc":"Transmog with a toggle.","src":["W"]},
-{"slug":"updated-graphics","name":"Updated graphics (toggle)","type":"System","patch":"launch","level":"—","desc":"Updated graphics that can be toggled off.","src":["W"]},
-{"slug":"legacy-system","name":"WoW: Forever Legacy System","type":"System","patch":"launch","level":"—","desc":"Announced at BlizzCon 2026.","src":["W"],"unknown":"Details not summarized in our sources yet."},
-{"slug":"main-secondary-names","name":"Main & Secondary Names","type":"System","patch":"launch","level":"—","desc":"Naming system announced at BlizzCon 2026.","src":["W"],"unknown":"Details not summarized in our sources yet."},
-{"slug":"hardcore-ruleset","name":"Hardcore ruleset","type":"System","patch":"hardcore","level":"—","desc":"Permadeath ruleset coming post-launch.","src":["W","M","Y"]}
-],
-"patches":[
-{"id":"launch","name":"Launch","date":"November 4, 2026","note":"Global launch 3:00 p.m. PST. Included with subscription/Game Time. Name reservation opens Oct 27."},
-{"id":"raids","name":"Raids unlock","date":"December 9, 2026","note":"Barrow Deeps, Hyjal Summit, Onyxia's Lair."},
-{"id":"hardcore","name":"Hardcore ruleset","date":"Winter 2026/27","note":"Exact date not announced."},
-{"id":"spring27","name":"First major update","date":"Spring 2027","note":"Contents not announced. (\"Every four months\" is a press estimate, not a Blizzard date.)"},
-{"id":"summer27","name":"Major update","date":"Summer 2027","note":"Contents not announced."}]}
+{
+ "sources": {
+  "W": {
+   "name": "Wowhead – Everything We Know About WoW: Forever (2026-09-12)",
+   "url": "https://www.wowhead.com/forever/news/everything-we-know-about-wow-forever-382827"
+  },
+  "M": {
+   "name": "METAMMO – Release Date, Beta, Editions (2026-09-13)",
+   "url": "https://metammo.com/guides/wow-forever-release-date-beta-and-everything-confirmed"
+  },
+  "B": {
+   "name": "Blizzard – Pre-Purchase WoW: Forever announcement",
+   "url": "https://pubt.io/view/64908C63AB9F8E89BAA04D9D1F186A361AFD4C26"
+  },
+  "Y": {
+   "name": "BlizzCon 2026 – WoW: Forever Deep Dive (video)",
+   "url": "https://www.youtube.com/watch?v=nQPS_QSOYCU"
+  }
+ },
+ "items": [
+  {
+   "slug": "zephras-isle",
+   "name": "Zephras Isle",
+   "type": "Zone",
+   "patch": "launch",
+   "level": "1–12",
+   "desc": "New zone and the starting zone of the Skyborne race.",
+   "src": [
+    "W",
+    "M"
+   ],
+   "unknown": "Quest count and map details not yet published.",
+   "idx": 0
+  },
+  {
+   "slug": "riverglades",
+   "name": "The Riverglades",
+   "type": "Zone",
+   "patch": "launch",
+   "level": "mid-30s to mid-40s",
+   "desc": "Brand-new leveling zone.",
+   "src": [
+    "W",
+    "M"
+   ],
+   "idx": 1
+  },
+  {
+   "slug": "shendralas",
+   "name": "Shen'dralas",
+   "type": "Zone",
+   "patch": "launch",
+   "level": "Unknown",
+   "desc": "Listed as one of four new zones.",
+   "src": [
+    "M"
+   ],
+   "unknown": "Level range not announced.",
+   "idx": 2
+  },
+  {
+   "slug": "mount-hyjal",
+   "name": "Mount Hyjal (Renewed)",
+   "type": "Zone",
+   "patch": "launch",
+   "level": "Unknown",
+   "desc": "Expanded existing zone.",
+   "src": [
+    "W",
+    "M"
+   ],
+   "unknown": "Level range not announced.",
+   "idx": 3
+  },
+  {
+   "slug": "new-dungeons",
+   "name": "9 new dungeons (names TBA)",
+   "type": "Dungeon",
+   "patch": "launch",
+   "level": "Unknown",
+   "desc": "Blizzard announced nine new dungeons.",
+   "src": [
+    "W",
+    "M"
+   ],
+   "unknown": "Individual names, levels and bosses not yet confirmed in our sources. Will be split into separate entries when confirmed.",
+   "idx": 4
+  },
+  {
+   "slug": "barrow-deeps",
+   "name": "Barrow Deeps",
+   "type": "Raid",
+   "patch": "raids",
+   "level": "60 · 10 players",
+   "desc": "New 10-player raid, unlocking December 9, 2026.",
+   "src": [
+    "W",
+    "M"
+   ],
+   "idx": 5
+  },
+  {
+   "slug": "hyjal-summit",
+   "name": "Hyjal Summit",
+   "type": "Raid",
+   "patch": "raids",
+   "level": "60 · 20 players",
+   "desc": "20-player raid, unlocking December 9, 2026.",
+   "src": [
+    "W",
+    "M"
+   ],
+   "idx": 6
+  },
+  {
+   "slug": "onyxias-lair",
+   "name": "Onyxia's Lair",
+   "type": "Raid",
+   "patch": "raids",
+   "level": "60 · 40 players",
+   "desc": "40-player raid in the December 9 lineup.",
+   "src": [
+    "M"
+   ],
+   "idx": 7
+  },
+  {
+   "slug": "darkspear-islands-bg",
+   "name": "Darkspear Islands Battleground",
+   "type": "PvP",
+   "patch": "launch",
+   "level": "Unknown",
+   "desc": "New battleground on the Darkspear Islands.",
+   "src": [
+    "M"
+   ],
+   "unknown": "Format and size not announced.",
+   "idx": 8
+  },
+  {
+   "slug": "new-quests",
+   "name": "~1,000 new quests (list TBA)",
+   "type": "Quest",
+   "patch": "launch",
+   "level": "1–60",
+   "desc": "Around 1,000 new quests across revamped and new zones.",
+   "src": [
+    "W",
+    "M"
+   ],
+   "unknown": "Individual quests will be added as they are published post-launch.",
+   "idx": 9
+  },
+  {
+   "slug": "skyborne",
+   "name": "Skyborne (new race)",
+   "type": "Race",
+   "patch": "launch",
+   "level": "Starts 1",
+   "desc": "Winged elves. Requires Skyborne Heroic Pack ($29.99) or higher.",
+   "src": [
+    "W",
+    "M",
+    "B"
+   ],
+   "idx": 10
+  },
+  {
+   "slug": "undead-paladin",
+   "name": "Undead Paladin",
+   "type": "Race/Class",
+   "patch": "launch",
+   "level": "—",
+   "desc": "New race/class combination.",
+   "src": [
+    "W"
+   ],
+   "idx": 11
+  },
+  {
+   "slug": "skyborne-warrior",
+   "name": "Skyborne Warrior",
+   "type": "Race/Class",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Skyborne can play warrior.",
+   "src": [
+    "M"
+   ],
+   "idx": 12
+  },
+  {
+   "slug": "skyborne-hunter",
+   "name": "Skyborne Hunter",
+   "type": "Race/Class",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Skyborne can play hunter.",
+   "src": [
+    "M"
+   ],
+   "idx": 13
+  },
+  {
+   "slug": "skyborne-rogue",
+   "name": "Skyborne Rogue",
+   "type": "Race/Class",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Skyborne can play rogue.",
+   "src": [
+    "M"
+   ],
+   "idx": 14
+  },
+  {
+   "slug": "skyborne-druid",
+   "name": "Skyborne Druid",
+   "type": "Race/Class",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Skyborne can play druid.",
+   "src": [
+    "M"
+   ],
+   "idx": 15
+  },
+  {
+   "slug": "skyborne-shaman",
+   "name": "Skyborne Shaman",
+   "type": "Race/Class",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Skyborne can play shaman.",
+   "src": [
+    "M"
+   ],
+   "idx": 16
+  },
+  {
+   "slug": "skyborne-mage",
+   "name": "Skyborne Mage",
+   "type": "Race/Class",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Skyborne can play mage.",
+   "src": [
+    "M"
+   ],
+   "idx": 17
+  },
+  {
+   "slug": "rulesets",
+   "name": "Rulesets replace realms",
+   "type": "System",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Pick Normal, PvP or RP (Hardcore later); each ruleset acts as a mega-realm, factions separate.",
+   "src": [
+    "Y"
+   ],
+   "idx": 18
+  },
+  {
+   "slug": "optional-transmog",
+   "name": "Optional transmog",
+   "type": "System",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Transmog with a toggle.",
+   "src": [
+    "W"
+   ],
+   "idx": 19
+  },
+  {
+   "slug": "updated-graphics",
+   "name": "Updated graphics (toggle)",
+   "type": "System",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Updated graphics that can be toggled off.",
+   "src": [
+    "W"
+   ],
+   "idx": 20
+  },
+  {
+   "slug": "legacy-system",
+   "name": "WoW: Forever Legacy System",
+   "type": "System",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Announced at BlizzCon 2026.",
+   "src": [
+    "W"
+   ],
+   "unknown": "Details not summarized in our sources yet.",
+   "idx": 21
+  },
+  {
+   "slug": "main-secondary-names",
+   "name": "Main & Secondary Names",
+   "type": "System",
+   "patch": "launch",
+   "level": "—",
+   "desc": "Naming system announced at BlizzCon 2026.",
+   "src": [
+    "W"
+   ],
+   "unknown": "Details not summarized in our sources yet.",
+   "idx": 22
+  },
+  {
+   "slug": "hardcore-ruleset",
+   "name": "Hardcore ruleset",
+   "type": "System",
+   "patch": "hardcore",
+   "level": "—",
+   "desc": "Permadeath ruleset coming post-launch.",
+   "src": [
+    "W",
+    "M",
+    "Y"
+   ],
+   "idx": 23
+  }
+ ],
+ "patches": [
+  {
+   "id": "launch",
+   "name": "Launch",
+   "date": "November 4, 2026",
+   "note": "Global launch 3:00 p.m. PST. Included with subscription/Game Time. Name reservation opens Oct 27."
+  },
+  {
+   "id": "raids",
+   "name": "Raids unlock",
+   "date": "December 9, 2026",
+   "note": "Barrow Deeps, Hyjal Summit, Onyxia's Lair."
+  },
+  {
+   "id": "hardcore",
+   "name": "Hardcore ruleset",
+   "date": "Winter 2026/27",
+   "note": "Exact date not announced."
+  },
+  {
+   "id": "spring27",
+   "name": "First major update",
+   "date": "Spring 2027",
+   "note": "Contents not announced. (\"Every four months\" is a press estimate, not a Blizzard date.)"
+  },
+  {
+   "id": "summer27",
+   "name": "Major update",
+   "date": "Summer 2027",
+   "note": "Contents not announced."
+  }
+ ],
+ "_note": "Each item's 'idx' is permanent: never reuse or renumber. New items get the next unused idx. Used by #p= progress links."
+}

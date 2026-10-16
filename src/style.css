@@ -55,3 +55,15 @@ nav .logo img{height:56px;width:auto;mix-blend-mode:lighten;display:block}
 .ico{overflow:hidden}.ico img{width:100%;height:100%;object-fit:cover;display:block}.card .ico:has(img),.item-head .ico:has(img){border:0;background:none;box-shadow:0 0 0 2px rgba(217,169,78,.35),0 6px 18px rgba(0,0,0,.6)}
 .card{grid-template-columns:56px 1fr auto}.card .ico{width:56px;height:56px}
 @media(max-width:760px){nav .logo img{height:46px}.hero-art{margin:14px 0 0;padding:28px 20px 34px;background:linear-gradient(180deg,rgba(10,8,6,.55),rgba(10,8,6,.92) 55%),url(img/hero-sm.webp) 70% top/cover}.hero-logo{width:260px;margin:-10px auto 0}.hero-art{text-align:center}.hero-art .cd{justify-content:center}.hero-art .divider{margin:20px auto}}
+.prog-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:8px}.prog-row p{margin:0;flex:1;color:var(--mut)}
+.save-btn{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;font-size:12px}
+.fq-modal{position:fixed;inset:0;background:rgba(5,4,3,.72);display:grid;place-items:center;z-index:50;padding:16px;animation:fqf .2s}
+.fq-dlg{position:relative;width:min(520px,100%);background:linear-gradient(160deg,#2a2117,#17120c);border:1px solid var(--gold);border-radius:8px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.7),inset 0 1px 0 rgba(243,212,138,.2)}
+.fq-dlg h2{margin:4px 0 10px;color:var(--gold2)}.fq-dlg p{color:var(--mut);margin:0 0 16px}
+.fq-x{position:absolute;top:10px;right:12px;background:none;color:var(--mut);font-size:26px;padding:4px 10px}
+.fq-link{display:flex;gap:8px;margin-bottom:12px}.fq-link input{flex:1;min-width:0;font-size:13px;color:var(--gold2)}
+.fq-share{width:100%;margin:0 0 12px;cursor:pointer;font:inherit;font-size:13px}.fq-hint{font-size:13px;border-top:1px solid var(--line);padding-top:12px;margin:4px 0 0!important}
+.fq-row{display:flex;gap:10px;flex-wrap:wrap}.fq-ghost{background:none;border:1px solid var(--line);color:var(--txt)}
+.fq-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;background:#1e1810;border:1px solid var(--gold);color:var(--gold2);padding:12px 20px;border-radius:6px;z-index:60;transition:.3s;box-shadow:0 10px 30px rgba(0,0,0,.6);max-width:90vw;text-align:center}.fq-toast.on{opacity:1;transform:translate(-50%,0)}
+@keyframes fqf{from{opacity:0}}
+@media(max-width:760px){.fq-dlg{padding:22px 18px}.fq-link{flex-direction:column}.save-btn{width:100%;justify-content:center}}
