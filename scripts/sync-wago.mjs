@@ -2,7 +2,7 @@
 // Diff WoW Forever (wowf) game data vs Classic Era using wago.tools (used with Wago's permission).
 // Writes candidates to review/pending.json + review/pending.md. Never touches src/data.json.
 import fs from 'node:fs';
-const UA = 'ForeverScout/1.0 (+https://foreverquests.github.io/foreverquests/)';
+const UA = 'ForeverScout/1.0 (+https://foreverscout.com/)';
 const STATE = 'review/state.json', PENDING = 'review/pending.json', MD = 'review/pending.md';
 const get = async (url) => {
   for (let i = 0; i < 3; i++) {

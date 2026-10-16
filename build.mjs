@@ -4,9 +4,9 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const ICON={};for(const f of fs.readdirSync('src/icons'))ICON[f.replace('.svg','')]=fs.readFileSync('src/icons/'+f,'utf8').replace('<path d="M0 0h512v512H0z"/>','').replace(/fill="#fff"/g,'fill="currentColor"');
 const TI={Zone:'treasure-map',Dungeon:'dungeon-gate',Raid:'dragon-head',PvP:'crossed-swords',Quest:'scroll-unfurled',Race:'wing-cloak','Race/Class':'shield',System:'gears',Item:'shield',Map:'castle'};
 const ART={Quest:'quest',Dungeon:'dungeon',Raid:'raid',Zone:'zone',PvP:'pvp',Race:'race','Race/Class':'race'};
-const ico=i=>i.img?`<img class="wow" src="${process.env.BASE_PATH??"/foreverquests/"}img/items/${i.img}" alt="${esc(i.name)} icon" width="56" height="56" loading="lazy">`:(ART[i.type]&&i.slug!=='hardcore-ruleset')?`<img src="${process.env.BASE_PATH??"/foreverquests/"}img/icon-${ART[i.type]}.webp" alt="${i.type} icon" width="96" height="96" loading="lazy">`:ICON[i.slug==='hardcore-ruleset'?'skull-crack':TI[i.type]]||'';
+const ico=i=>i.img?`<img class="wow" src="${process.env.BASE_PATH??"/"}img/items/${i.img}" alt="${esc(i.name)} icon" width="56" height="56" loading="lazy">`:(ART[i.type]&&i.slug!=='hardcore-ruleset')?`<img src="${process.env.BASE_PATH??"/foreverquests/"}img/icon-${ART[i.type]}.webp" alt="${i.type} icon" width="96" height="96" loading="lazy">`:ICON[i.slug==='hardcore-ruleset'?'skull-crack':TI[i.type]]||'';
 D.items.forEach(i=>{i.icon=ico(i);if(i.img)i.q=/Legendary/.test(i.desc)?'leg':'epic'});
-const BASE=process.env.BASE_PATH??'/foreverquests/';const SITE=(process.env.SITE_ORIGIN??'https://foreverquests.github.io')+BASE.replace(/\/$/,'');
+const BASE=process.env.BASE_PATH??'/';const SITE=(process.env.SITE_ORIGIN??'https://foreverscout.com')+BASE.replace(/\/$/,'');
 const _w=fs.writeFileSync;fs.writeFileSync=(f,d)=>_w(f,String(f).endsWith('.html')?d.replace(new RegExp('(href|src)="/(?!/|'+BASE.slice(1)+')','g'),'$1="'+BASE).replace(/fetch\('\//g,"fetch('"+BASE).replace(/'\/item\//g,"'"+BASE+'item/'):d);
 const NEWS=`<section class="box news"><h2>The Scout Report</h2><p>ForeverScout's weekly email: new quests, items, dungeons, zones and patch changes in WoW: Forever.</p>
 <form action="https://example.com/newsletter-placeholder" method="post" onsubmit="event.preventDefault();this.innerHTML='<p>Thanks! (Demo — signup endpoint not connected yet.)</p>'"><input type="email" name="email" required placeholder="you@example.com"><button>Subscribe</button></form></section>`;
@@ -43,3 +43,4 @@ fs.mkdirSync(out+'/sources');fs.writeFileSync(out+'/sources/index.html',page('So
 fs.writeFileSync(out+'/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['/','/patches/','/sources/',...D.items.map(i=>`/item/${i.slug}/`)].map(u=>`<url><loc>${SITE}${u}</loc></url>`).join('')}</urlset>`);
 fs.writeFileSync(out+'/robots.txt',`User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
 console.log('built',D.items.length,'items');
+fs.writeFileSync('dist/CNAME','foreverscout.com\n');
