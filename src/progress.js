@@ -12,7 +12,7 @@ async function openSave(){await data();const n=Object.keys(get()).filter(s=>D.it
 const w=modal(`<button class="fq-x" data-close aria-label="Close">×</button><div class="eyebrow">Your progress</div><h2>Save my progress</h2><p>${n} of ${D.items.length} items done. This personal link holds your checklist — no account needed. Open it on any device to restore it.</p><div class="fq-link"><input readonly value="${url}" aria-label="Personal progress link"><button class="fq-copy">Copy</button></div>${navigator.share?'<button class="fq-share cta">Share…</button>':''}<p class="fq-hint">🔖 Tip: bookmark this link (Ctrl/⌘+D after opening it) and check back after each patch.</p>`);
 const inp=w.querySelector('input');inp.onfocus=()=>inp.select();
 w.querySelector('.fq-copy').onclick=async()=>{try{await navigator.clipboard.writeText(url)}catch(e){inp.select();document.execCommand('copy')}toast('Link copied — bookmark it to keep your progress')};
-const sh=w.querySelector('.fq-share');if(sh)sh.onclick=()=>navigator.share({title:'My WoW Forever progress · ForeverQuests',url}).catch(()=>{})}
+const sh=w.querySelector('.fq-share');if(sh)sh.onclick=()=>navigator.share({title:'My WoW Forever progress · ForeverScout',url}).catch(()=>{})}
 async function importHash(){const m=location.hash.match(/[#&]p=([\w-]*)/);if(!m)return;await data();const inc=decode(m[1]);history.replaceState(null,'',location.pathname+location.search);if(!inc){toast('That progress link looks broken');return}
 const cur=get(),same=JSON.stringify(Object.keys(cur).sort())===JSON.stringify(Object.keys(inc).sort());
 const apply=()=>{set(Object.assign(cur,inc));toast('Progress loaded ✔')};

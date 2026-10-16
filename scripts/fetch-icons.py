@@ -4,7 +4,7 @@ Item.IconFileDataID -> https://wago.tools/api/casc/<fileDataID> (BLP) -> 56px we
 Sets item["img"] = "<fileDataID>.webp" in src/data.json. Only downloads icons not already on disk."""
 import csv, io, json, os, sys, time, urllib.request
 from PIL import Image
-UA = 'ForeverQuests/1.0 (+https://foreverquests.github.io/foreverquests/)'
+UA = 'ForeverScout/1.0 (+https://foreverquests.github.io/foreverquests/)'
 OUT = 'src/img/items'
 def get(url):
     for i in range(3):

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-110 -110 220 220">
+<defs>
+<linearGradient id="g" x1="0" y1="-1" x2="0" y2="1"><stop offset="0" stop-color="#fff2c9"/><stop offset=".45" stop-color="#d9a94e"/><stop offset="1" stop-color="#7a5218"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d48a"/><stop offset="1" stop-color="#8a5c1c"/></linearGradient>
+<radialGradient id="lens" cx=".4" cy=".35"><stop offset="0" stop-color="#d8fbff"/><stop offset=".4" stop-color="#3fe0e6"/><stop offset="1" stop-color="#0a5560"/></radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g stroke="#2a1c0a" stroke-width="1.2">
+<g fill="url(#g)">
+<path d="M0-104 L12-12 L0 0 L-12-12Z"/><path d="M0 104 L12 12 L0 0 L-12 12Z"/>
+<path d="M-104 0 L-12-12 L0 0 L-12 12Z"/><path d="M104 0 L12-12 L0 0 L12 12Z"/>
+</g>
+<g fill="url(#g2)" transform="rotate(45)">
+<path d="M0-74 L8-8 L0 0 L-8-8Z"/><path d="M0 74 L8 8 L0 0 L-8 8Z"/><path d="M-74 0 L-8-8 L0 0 L-8 8Z"/><path d="M74 0 L8-8 L0 0 L8 8Z"/>
+</g>
+<circle r="66" fill="none" stroke="url(#g)" stroke-width="7"/>
+<circle r="58" fill="#120d08" fill-opacity=".85" stroke="#8a5c1c" stroke-width="1.5"/>
+<g stroke="#d9a94e" stroke-width="1.5">
+<line y1="-58" y2="-50"/><line y1="58" y2="50"/><line x1="-58" x2="-50"/><line x1="58" x2="50"/>
+</g>
+</g>
+<g filter="url(#glow)">
+<g fill="#5ff3f0" stroke="#0b4c55" stroke-width="1"><path d="M0-92 l5 9 -5 9 -5-9z"/><path d="M0 92 l5-9 -5-9 -5 9z"/><path d="M-92 0 l9 5 9-5 -9-5z"/><path d="M92 0 l-9 5 -9-5 9-5z"/></g>
+</g>
+<!-- spyglass -->
+<g transform="rotate(-38)" stroke="#2a1c0a" stroke-width="1.4">
+<rect x="-62" y="-7" width="40" height="14" rx="2" fill="url(#g2)"/>
+<rect x="-24" y="-10" width="38" height="20" rx="2" fill="#5a3714"/>
+<rect x="-24" y="-10" width="6" height="20" fill="url(#g)"/><rect x="8" y="-10" width="6" height="20" fill="url(#g)"/>
+<rect x="14" y="-14" width="34" height="28" rx="3" fill="url(#g2)"/>
+<rect x="46" y="-17" width="8" height="34" rx="2" fill="url(#g)"/>
+<ellipse cx="56" cy="0" rx="5" ry="15" fill="url(#lens)" filter="url(#glow)"/>
+<rect x="-66" y="-5" width="5" height="10" fill="url(#g)"/>
+</g>
+</svg>

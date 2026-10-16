@@ -2,7 +2,7 @@
 // Diff WoW Forever (wowf) game data vs Classic Era using wago.tools (used with Wago's permission).
 // Writes candidates to review/pending.json + review/pending.md. Never touches src/data.json.
 import fs from 'node:fs';
-const UA = 'ForeverQuests/1.0 (+https://foreverquests.github.io/foreverquests/)';
+const UA = 'ForeverScout/1.0 (+https://foreverquests.github.io/foreverquests/)';
 const STATE = 'review/state.json', PENDING = 'review/pending.json', MD = 'review/pending.md';
 const get = async (url) => {
   for (let i = 0; i < 3; i++) {
@@ -91,7 +91,7 @@ fs.writeFileSync(STATE, JSON.stringify(state) + '\n');
 // Readable review file
 const by = k => pending.candidates.filter(c => c.kind === k);
 const esc = s => String(s ?? '').replace(/\|/g, '\\|');
-let md = `# ForeverQuests review queue\n\nForever **${fBuild}** vs Classic Era **${eBuild}** · updated ${pending.updated}\nData: [wago.tools](https://wago.tools). This run surfaced **${added.length}** new candidates.\n\nTo publish: add the entry to \`src/data.json\` with the next free \`idx\` (never reuse/renumber), then delete it from \`review/pending.json\` (or leave it; state prevents re-surfacing).\n\n| Table | Forever rows | New | Changed |\n|---|---|---|---|\n`;
+let md = `# ForeverScout review queue\n\nForever **${fBuild}** vs Classic Era **${eBuild}** · updated ${pending.updated}\nData: [wago.tools](https://wago.tools). This run surfaced **${added.length}** new candidates.\n\nTo publish: add the entry to \`src/data.json\` with the next free \`idx\` (never reuse/renumber), then delete it from \`review/pending.json\` (or leave it; state prevents re-surfacing).\n\n| Table | Forever rows | New | Changed |\n|---|---|---|---|\n`;
 for (const [k, v] of Object.entries(summary)) md += `| ${k} | ${v.forever} | ${v.new} | ${v.changed} |\n`;
 const sect = (k, title, cols, row, limit = 300) => {
   const list = by(k); if (!list.length) return;
