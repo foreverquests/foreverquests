@@ -4,7 +4,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const ICON={};for(const f of fs.readdirSync('src/icons'))ICON[f.replace('.svg','')]=fs.readFileSync('src/icons/'+f,'utf8').replace('<path d="M0 0h512v512H0z"/>','').replace(/fill="#fff"/g,'fill="currentColor"');
 const TI={Zone:'treasure-map',Dungeon:'dungeon-gate',Raid:'dragon-head',PvP:'crossed-swords',Quest:'scroll-unfurled',Race:'wing-cloak','Race/Class':'shield',System:'gears'};
 const ART={Quest:'quest',Dungeon:'dungeon',Raid:'raid',Zone:'zone',PvP:'pvp',Race:'race','Race/Class':'race'};
-const ico=i=>(ART[i.type]&&i.slug!=='hardcore-ruleset')?`<img src="/img/icon-${ART[i.type]}.webp" alt="${i.type} icon" width="96" height="96" loading="lazy">`:ICON[i.slug==='hardcore-ruleset'?'skull-crack':TI[i.type]]||'';
+const ico=i=>(ART[i.type]&&i.slug!=='hardcore-ruleset')?`<img src="${process.env.BASE_PATH??"/foreverquests/"}img/icon-${ART[i.type]}.webp" alt="${i.type} icon" width="96" height="96" loading="lazy">`:ICON[i.slug==='hardcore-ruleset'?'skull-crack':TI[i.type]]||'';
 D.items.forEach(i=>i.icon=ico(i));
 const BASE=process.env.BASE_PATH??'/foreverquests/';const SITE=(process.env.SITE_ORIGIN??'https://bobcatzd.github.io')+BASE.replace(/\/$/,'');
 const _w=fs.writeFileSync;fs.writeFileSync=(f,d)=>_w(f,String(f).endsWith('.html')?d.replace(/(href|src)="\/(?!\/)/g,'$1="'+BASE).replace(/fetch\('\//g,"fetch('"+BASE).replace(/'\/item\//g,"'"+BASE+'item/'):d);
