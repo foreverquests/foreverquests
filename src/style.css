@@ -67,3 +67,4 @@ nav .logo img{height:56px;width:auto;mix-blend-mode:lighten;display:block}
 .fq-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;background:#1e1810;border:1px solid var(--gold);color:var(--gold2);padding:12px 20px;border-radius:6px;z-index:60;transition:.3s;box-shadow:0 10px 30px rgba(0,0,0,.6);max-width:90vw;text-align:center}.fq-toast.on{opacity:1;transform:translate(-50%,0)}
 @keyframes fqf{from{opacity:0}}
 @media(max-width:760px){.fq-dlg{padding:22px 18px}.fq-link{flex-direction:column}.save-btn{width:100%;justify-content:center}}
+.ico:has(img.wow){border-radius:8px!important}.q-epic .ico:has(img.wow){box-shadow:0 0 0 2px #a335ee,0 0 14px rgba(163,53,238,.45)!important}.q-leg .ico:has(img.wow){box-shadow:0 0 0 2px #ff8000,0 0 14px rgba(255,128,0,.5)!important}.ico img.wow{image-rendering:auto}
