@@ -1,0 +1,6 @@
+dist/
+node_modules/
+screens/
+*.log
+.DS_Store
+__pycache__/
