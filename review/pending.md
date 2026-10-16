@@ -1,7 +1,7 @@
 # ForeverQuests review queue
 
-Forever **1.60.1.70245** vs Classic Era **1.15.9.70003** · updated 2026-10-16T14:56:52.739Z
-Data: [wago.tools](https://wago.tools). This run surfaced **7567** new candidates.
+Forever **1.60.1.70245** vs Classic Era **1.15.9.70003** · updated 2026-10-16T16:43:17.750Z
+Data: [wago.tools](https://wago.tools). This run surfaced **0** new candidates.
 
 To publish: add the entry to `src/data.json` with the next free `idx` (never reuse/renumber), then delete it from `review/pending.json` (or leave it; state prevents re-surfacing).
 
@@ -18,10 +18,10 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 
 | ID | Status | Name | Levels |
 |---|---|---|---|
-| 3271 | new | City of Dalaran | NaN-NaN |
-| 3272 | new | Ruins of Lordaeron | NaN-NaN |
-| 3273 | new | Hall of Thanes | NaN-NaN |
-| 3274 | new | Excavation Site: Wetlands | NaN-NaN |
+| 3271 | new | City of Dalaran | null-null |
+| 3272 | new | Ruins of Lordaeron | null-null |
+| 3273 | new | Hall of Thanes | null-null |
+| 3274 | new | Excavation Site: Wetlands | null-null |
 
 ## Maps (13)
 
