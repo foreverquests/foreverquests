@@ -68,3 +68,8 @@ nav .logo img{height:56px;width:auto;mix-blend-mode:lighten;display:block}
 @keyframes fqf{from{opacity:0}}
 @media(max-width:760px){.fq-dlg{padding:22px 18px}.fq-link{flex-direction:column}.save-btn{width:100%;justify-content:center}}
 .ico:has(img.wow){border-radius:8px!important}.q-epic .ico:has(img.wow){box-shadow:0 0 0 2px #a335ee,0 0 14px rgba(163,53,238,.45)!important}.q-leg .ico:has(img.wow){box-shadow:0 0 0 2px #ff8000,0 0 14px rgba(255,128,0,.5)!important}.ico img.wow{image-rendering:auto}
+.fq-acct{position:relative}.fq-login,.fq-me{text-transform:none;background:rgba(217,169,78,.08);border:1px solid var(--gold);color:var(--gold2);border-radius:4px;padding:7px 14px;font:600 13px Inter,sans-serif;letter-spacing:.06em;cursor:pointer;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fq-drop{position:absolute;right:0;top:calc(100% + 8px);z-index:40;min-width:220px;background:#1d1610;border:1px solid var(--gold);border-radius:6px;padding:14px;box-shadow:0 20px 50px rgba(0,0,0,.6)}.fq-drop p{margin:0 0 10px;color:var(--mut);font-size:13px}.fq-drop button{width:100%;background:none;border:1px solid rgba(217,169,78,.5);color:var(--txt);border-radius:4px;padding:8px;cursor:pointer}
+.fq-bnet{width:100%;margin-top:6px;cursor:pointer;background:#148eff22;border-color:#148eff;color:#cfe6ff}.fq-or{text-align:center;margin:14px 0!important}
+.fq-ml{display:flex;gap:8px}.fq-ml input{flex:1;padding:10px;border-radius:4px;border:1px solid rgba(217,169,78,.4);background:#0e0b08;color:var(--txt)}.fq-ml button{padding:10px 14px;border-radius:4px;border:1px solid var(--gold);background:rgba(217,169,78,.15);color:var(--gold2);cursor:pointer}
+@media(max-width:760px){.fq-ml{flex-direction:column}}
