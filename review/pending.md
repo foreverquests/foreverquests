@@ -1,17 +1,17 @@
 # ForeverScout review queue
 
-Forever **1.60.1.70245** vs Classic Era **1.15.9.70003** · updated 2026-10-20T16:42:30.667Z
-Data: [wago.tools](https://wago.tools). This run surfaced **0** new candidates.
+Forever **1.60.1.70532** vs Classic Era **1.15.9.70003** · updated 2026-10-22T16:45:16.785Z
+Data: [wago.tools](https://wago.tools). This run surfaced **284** new candidates.
 
 To publish: add the entry to `src/data.json` with the next free `idx` (never reuse/renumber), then delete it from `review/pending.json` (or leave it; state prevents re-surfacing).
 
 | Table | Forever rows | New | Changed |
 |---|---|---|---|
-| ItemSparse | 19227 | 4966 | 612 |
-| QuestV2 | 6609 | 1804 | 0 |
+| ItemSparse | 19257 | 5007 | 634 |
+| QuestV2 | 6616 | 1811 | 0 |
 | QuestLine | 3 | 3 | 0 |
-| AreaTable | 1371 | 159 | 6 |
-| Map | 71 | 13 | 0 |
+| AreaTable | 1375 | 163 | 6 |
+| Map | 73 | 15 | 0 |
 | LFGDungeons | 71 | 4 | 0 |
 
 ## Dungeons / raids (4)
@@ -23,14 +23,13 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 3273 | new | Hall of Thanes | null-null |
 | 3274 | new | Excavation Site: Wetlands | null-null |
 
-## Maps (13)
+## Maps (15)
 
 | ID | Status | Name | Players |
 |---|---|---|---|
 | 2959 | new | City of Dalaran | 0 |
 | 2980 | new | Dalaran City | 0 |
 | 2991 | new | Zephras Isle | 0 |
-| 2995 | new | Hyjal Crater | 0 |
 | 2996 | new | Warsong Gulch (Winter) | 0 |
 | 2997 | new | Darkspear Islands | 0 |
 | 2998 | new | Excavation Site: Wetlands | 0 |
@@ -40,8 +39,11 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 3065 | new | The Hall of Thanes | 0 |
 | 3104 | new | nothing to see here | 0 |
 | 3109 | new | Manor Mistmantle | 0 |
+| 2995 | new | Hyjal Crater | 0 |
+| 3217 | new | Dalaran Skycuter | 0 |
+| 3218 | new | Mulgore Skycuter | 0 |
 
-## Zones / areas (165)
+## Zones / areas (169)
 
 | ID | Status | Name |
 |---|---|---|
@@ -210,6 +212,10 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 17808 | new | Ashwood's Fall |
 | 17809 | new | Forlorn Pit |
 | 17824 | new | The Eventide |
+| 17845 | new | Dreambound Pinnacle |
+| 17847 | new | Twilight Hollow |
+| 17852 | new | Hyjal Crater |
+| 17853 | new | Sunken Hollow |
 
 ## Quest lines (3)
 
@@ -219,7 +225,7 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 6026 | new | Toxic Soil | 0 |
 | 6293 | new | PvP Season Journey | 0 |
 
-## Items (5578)
+## Items (5650)
 
 | ID | Status | Name | Quality | iLvl | Req | Changes |
 |---|---|---|---|---|---|---|
@@ -233,12 +239,10 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 2307 | changed | Fine Leather Boots | Uncommon | 18 | 13 | OverallQualityID: 1→2 |
 | 2310 | changed | Embossed Leather Cloak | Uncommon | 13 | 8 | OverallQualityID: 1→2 |
 | 2311 | changed | White Leather Jerkin | Uncommon | 13 | 8 | OverallQualityID: 1→2 |
-| 2315 | changed | Dark Leather Boots | Uncommon | 20 | 15 | OverallQualityID: 1→2 |
 | 2316 | changed | Dark Leather Cloak | Uncommon | 22 | 17 | OverallQualityID: 1→2 |
 | 2362 | changed | Worn Wooden Shield | Common | 1 | 1 | OverallQualityID: 0→1 |
 | 2411 | changed | Black Stallion Bridle | Rare | 40 | 40 | OverallQualityID: 1→3 |
 | 2454 | changed | Elixir of Minor Strength | Common | 5 | 1 | Display_lang: Elixir of Lion's Strength→Elixir of Minor Strength |
-| 2546 | changed | Royal Frostmane Girdle | Common | 13 | 8 | ItemLevel: 11→13; RequiredLevel: 6→8 |
 | 2569 | changed | Linen Boots | Uncommon | 13 | 8 | OverallQualityID: 1→2 |
 | 2580 | changed | Reinforced Linen Cape | Uncommon | 12 | 7 | OverallQualityID: 1→2 |
 | 2582 | changed | Green Woolen Vest | Uncommon | 17 | 12 | OverallQualityID: 1→2 |
@@ -261,12 +265,9 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 2866 | changed | Rough Bronze Cuirass | Uncommon | 23 | 18 | OverallQualityID: 1→2 |
 | 2888 | changed | Beer Basted Boar Ribs | Common | 10 | 1 | ItemLevel: 8→10 |
 | 2917 | changed | Tranquil Ring | Uncommon | 34 | 0 | ItemLevel: 33→34 |
-| 3008 | changed | Wendigo Fur Cloak | Common | 11 | 6 | ItemLevel: 9→11; RequiredLevel: 4→6 |
 | 3165 | changed | Minor Quinn's Potion | Common | 1 | 0 | Display_lang: Quinn's Potion→Minor Quinn's Potion |
 | 3224 | changed | Silver-lined Bracers | Uncommon | 12 | 7 | OverallQualityID: 1→2; ItemLevel: 10→12; RequiredLevel: 5→7 |
 | 3225 | changed | Bloodstained Knife | Uncommon | 11 | 6 | OverallQualityID: 1→2; ItemLevel: 9→11; RequiredLevel: 4→6 |
-| 3322 | changed | Wispy Cloak | Common | 9 | 3 | ItemLevel: 6→9; RequiredLevel: 1→3 |
-| 3323 | changed | Ghostly Bracers | Common | 10 | 5 | ItemLevel: 8→10; RequiredLevel: 3→5 |
 | 3382 | changed | Minor Troll's Blood Elixir | Common | 8 | 1 | Display_lang: Weak Troll's Blood Potion→Minor Troll's Blood Elixir |
 | 3386 | changed | Potion of Poison Cleansing | Common | 55 | 14 | Display_lang: Elixir of Poison Resistance→Potion of Poison Cleansing |
 | 3388 | changed | Lesser Troll's Blood Elixir | Common | 25 | 15 | Display_lang: Strong Troll's Blood Potion→Lesser Troll's Blood Elixir |
@@ -326,11 +327,8 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 5966 | changed | Guardian Gloves | Uncommon | 38 | 33 | OverallQualityID: 1→2 |
 | 5996 | changed | Draught of Water Breathing | Common | 18 | 8 | Display_lang: Elixir of Water Breathing→Draught of Water Breathing |
 | 6040 | changed | Golden Scale Bracers | Uncommon | 37 | 32 | OverallQualityID: 1→2 |
-| 6147 | changed | Ratty Old Belt | Common | 12 | 7 | ItemLevel: 10→12; RequiredLevel: 5→7 |
 | 6189 | changed | Durable Chain Shoulders | Uncommon | 24 | 0 | OverallQualityID: 1→2 |
 | 6191 | changed | Kimbra Boots | Uncommon | 24 | 0 | ItemLevel: 23→24 |
-| 6201 | changed | Lithe Boots | Common | 12 | 7 | ItemLevel: 10→12; RequiredLevel: 5→7 |
-| 6202 | changed | Fingerless Gloves | Common | 13 | 8 | ItemLevel: 11→13; RequiredLevel: 6→8 |
 | 6203 | changed | Thuggish Shield | Uncommon | 13 | 8 | OverallQualityID: 1→2; ItemLevel: 11→13; RequiredLevel: 6→8 |
 | 6206 | changed | Rock Chipper | Common | 17 | 12 | ItemLevel: 15→17; RequiredLevel: 10→12 |
 | 6214 | changed | Heavy Copper Maul | Uncommon | 16 | 11 | OverallQualityID: 1→2 |
@@ -346,10 +344,7 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 6645 | changed | Bloated Mud Snapper | Uncommon | 15 | 0 | OverallQualityID: 1→2; RequiredLevel: 5→0 |
 | 6647 | changed | Bloated Bristle Whisker Catfish | Uncommon | 25 | 0 | Display_lang: Bloated Catfish→Bloated Bristle Whisker Catfish; OverallQualityID: 1→2; RequiredLevel: 15→0 |
 | 6657 | changed | Savory Deviate Delight | Common | 10 | 1 | ItemLevel: 18→10; RequiredLevel: 0→1 |
-| 6773 | changed | Kolkar Marauder Chain | Uncommon | 42 | 0 | Display_lang: Gelkis Marauder Chain→Kolkar Marauder Chain |
-| 6774 | changed | Traitor's Finger | Uncommon | 42 | 0 | Display_lang: Uthek's Finger→Traitor's Finger |
 | 6787 | changed | White Woolen Dress | Uncommon | 22 | 17 | OverallQualityID: 1→2 |
-| 6788 | changed | Kolkar Hunter's Belt | Uncommon | 42 | 0 | Display_lang: Magram Hunter's Belt→Kolkar Hunter's Belt |
 | 6832 | changed | Cloak of Blight | Rare | 42 | 0 | OverallQualityID: 2→3 |
 | 6888 | changed | Herb Baked Egg | Common | 10 | 1 | ItemLevel: 7→10 |
 | 6890 | changed | Smoked Bear Meat | Common | 10 | 1 | ItemLevel: 15→10; RequiredLevel: 5→1 |
@@ -523,10 +518,21 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 13878 | changed | 53 Pound Yellowtail | Common | 45 | 0 | Display_lang: 53 Pound Grouper→53 Pound Yellowtail |
 | 13879 | changed | 59 Pound Yellowtail | Common | 45 | 0 | Display_lang: 59 Pound Grouper→59 Pound Yellowtail |
 | 13880 | changed | 68 Pound Yellowtail | Common | 45 | 0 | Display_lang: 68 Pound Grouper→68 Pound Yellowtail |
+| 13881 | changed | Bloated Redgill | Uncommon | 45 | 0 | OverallQualityID: 1→2 |
+| 13890 | changed | Raw Plated Armorfish | Common | 55 | 0 | Display_lang: Plated Armorfish→Raw Plated Armorfish |
+| 13891 | changed | Bloated Whitescale Salmon | Uncommon | 55 | 0 | Display_lang: Bloated Salmon→Bloated Whitescale Salmon; OverallQualityID: 1→2 |
+| 14646 | changed | Northshire Gift Voucher | Common | 1 | 1 | RequiredLevel: 0→1 |
+| 14647 | changed | Coldridge Valley Gift Voucher | Common | 1 | 1 | RequiredLevel: 0→1 |
+| 14648 | changed | Shadowglen Gift Voucher | Common | 1 | 1 | RequiredLevel: 0→1 |
+| 14649 | changed | Valley of Trials Gift Voucher | Common | 1 | 1 | RequiredLevel: 0→1 |
+| 14650 | changed | Camp Narache Gift Voucher | Common | 1 | 1 | RequiredLevel: 0→1 |
+| 14651 | changed | Deathknell Gift Voucher | Common | 1 | 1 | RequiredLevel: 0→1 |
+| 15109 | changed | Staff of Soran'ruk | Rare | 25 | 0 | OverallQualityID: 2→3 |
+| 15401 | changed | Welldrip Gloves | Uncommon | 14 | 0 | OverallQualityID: 1→2 |
 
-…and 5278 more in pending.json
+…and 5350 more in pending.json
 
-## Quest IDs (names aren't in client data) (1804)
+## Quest IDs (names aren't in client data) (1811)
 
 | ID | Status | Quest line | Wowhead |
 |---|---|---|---|
@@ -831,4 +837,4 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 92707 | new |  | https://www.wowhead.com/classic/quest=92707 |
 | 92708 | new |  | https://www.wowhead.com/classic/quest=92708 |
 
-…and 1504 more in pending.json
+…and 1511 more in pending.json

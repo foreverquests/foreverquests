@@ -6034,6 +6034,74 @@
       "unknown": "Found in datamined game files; details may change before launch.",
       "auto": "dungeon:3273",
       "idx": 432
+    },
+    {
+      "slug": "spectral-wolf-pack",
+      "name": "Spectral Wolf Pack",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 60, requires level 60) found in the Forever 1.60.1.70532 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:286756",
+      "idx": 433,
+      "img": "8408196.webp"
+    },
+    {
+      "slug": "verdant-sea-turtle",
+      "name": "Verdant Sea Turtle",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 60, requires level 60) found in the Forever 1.60.1.70532 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:286724",
+      "idx": 434,
+      "img": "8517112.webp"
+    },
+    {
+      "slug": "crimson-rooster",
+      "name": "Crimson Rooster",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 60, requires level 60) found in the Forever 1.60.1.70532 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:286727",
+      "idx": 435,
+      "img": "8426877.webp"
+    },
+    {
+      "slug": "dalaran-skycuter",
+      "name": "Dalaran Skycuter",
+      "type": "Map",
+      "patch": "launch",
+      "desc": "New map found in the Forever 1.60.1.70532 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "map:3217",
+      "idx": 436
+    },
+    {
+      "slug": "mulgore-skycuter",
+      "name": "Mulgore Skycuter",
+      "type": "Map",
+      "patch": "launch",
+      "desc": "New map found in the Forever 1.60.1.70532 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "map:3218",
+      "idx": 437
     }
   ],
   "patches": [

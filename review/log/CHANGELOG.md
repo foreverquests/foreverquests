@@ -410,3 +410,11 @@
 - [Map] Eastern Kingdoms Preserved (idx 430)
 - [Map] Manor Mistmantle (idx 431)
 - [Dungeon] Hall of Thanes (idx 432)
+
+## 2026-10-22 · Forever 1.60.1.70532
+
+- [Item] Spectral Wolf Pack (idx 433)
+- [Item] Verdant Sea Turtle (idx 434)
+- [Item] Crimson Rooster (idx 435)
+- [Map] Dalaran Skycuter (idx 436)
+- [Map] Mulgore Skycuter (idx 437)
