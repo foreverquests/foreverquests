@@ -418,3 +418,14 @@
 - [Item] Crimson Rooster (idx 435)
 - [Map] Dalaran Skycuter (idx 436)
 - [Map] Mulgore Skycuter (idx 437)
+
+## 2026-10-30 · Forever 1.60.1.70707
+
+- [Item] Watcher's Signet of Ferocity (idx 438)
+- [Item] Watcher's Signet of Brilliance (idx 439)
+- [Item] Watcher's Signet of Resolve (idx 440)
+- [Item] Watcher's Signet of Vigilance (idx 441)
+- [Item] Warden's Signet of Ferocity (idx 442)
+- [Item] Warden's Signet of Brilliance (idx 443)
+- [Item] Warden's Signet of Resolve (idx 444)
+- [Item] Warden's Signet of Vigilance (idx 445)

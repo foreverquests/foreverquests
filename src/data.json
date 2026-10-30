@@ -6102,6 +6102,118 @@
       "unknown": "Found in datamined game files; details may change before launch.",
       "auto": "map:3218",
       "idx": 437
+    },
+    {
+      "slug": "watcher-s-signet-of-ferocity",
+      "name": "Watcher's Signet of Ferocity",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 60, requires level 60) found in the Forever 1.60.1.70707 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:275976",
+      "idx": 438,
+      "img": "133367.webp"
+    },
+    {
+      "slug": "watcher-s-signet-of-brilliance",
+      "name": "Watcher's Signet of Brilliance",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 60, requires level 60) found in the Forever 1.60.1.70707 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:275977",
+      "idx": 439,
+      "img": "133351.webp"
+    },
+    {
+      "slug": "watcher-s-signet-of-resolve",
+      "name": "Watcher's Signet of Resolve",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 60, requires level 60) found in the Forever 1.60.1.70707 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:275979",
+      "idx": 440,
+      "img": "133353.webp"
+    },
+    {
+      "slug": "watcher-s-signet-of-vigilance",
+      "name": "Watcher's Signet of Vigilance",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 60, requires level 60) found in the Forever 1.60.1.70707 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:275980",
+      "idx": 441,
+      "img": "133352.webp"
+    },
+    {
+      "slug": "warden-s-signet-of-ferocity",
+      "name": "Warden's Signet of Ferocity",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 65, requires level 60) found in the Forever 1.60.1.70707 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:275981",
+      "idx": 442,
+      "img": "133367.webp"
+    },
+    {
+      "slug": "warden-s-signet-of-brilliance",
+      "name": "Warden's Signet of Brilliance",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 65, requires level 60) found in the Forever 1.60.1.70707 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:275982",
+      "idx": 443,
+      "img": "133351.webp"
+    },
+    {
+      "slug": "warden-s-signet-of-resolve",
+      "name": "Warden's Signet of Resolve",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 65, requires level 60) found in the Forever 1.60.1.70707 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:275983",
+      "idx": 444,
+      "img": "133353.webp"
+    },
+    {
+      "slug": "warden-s-signet-of-vigilance",
+      "name": "Warden's Signet of Vigilance",
+      "type": "Item",
+      "patch": "launch",
+      "desc": "New Epic item (item level 65, requires level 60) found in the Forever 1.60.1.70707 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "item:275984",
+      "idx": 445,
+      "img": "133352.webp"
     }
   ],
   "patches": [
