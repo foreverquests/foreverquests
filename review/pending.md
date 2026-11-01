@@ -1,6 +1,6 @@
 # ForeverScout review queue
 
-Forever **1.60.1.70707** vs Classic Era **1.15.9.70576** · updated 2026-10-31T16:45:06.044Z
+Forever **1.60.1.70707** vs Classic Era **1.15.9.70576** · updated 2026-11-01T16:45:26.564Z
 Data: [wago.tools](https://wago.tools). This run surfaced **0** new candidates.
 
 To publish: add the entry to `src/data.json` with the next free `idx` (never reuse/renumber), then delete it from `review/pending.json` (or leave it; state prevents re-surfacing).
