@@ -1,20 +1,20 @@
 # ForeverScout review queue
 
-Forever **1.60.1.70790** vs Classic Era **1.15.9.70576** · updated 2026-11-06T16:59:39.762Z
-Data: [wago.tools](https://wago.tools). This run surfaced **0** new candidates.
+Forever **1.60.1.70862** vs Classic Era **1.15.9.70576** · updated 2026-11-07T16:48:38.799Z
+Data: [wago.tools](https://wago.tools). This run surfaced **81** new candidates.
 
 To publish: add the entry to `src/data.json` with the next free `idx` (never reuse/renumber), then delete it from `review/pending.json` (or leave it; state prevents re-surfacing).
 
 | Table | Forever rows | New | Changed |
 |---|---|---|---|
-| ItemSparse | 19307 | 5056 | 635 |
-| QuestV2 | 6616 | 1811 | 0 |
+| ItemSparse | 19324 | 5073 | 635 |
+| QuestV2 | 6626 | 1821 | 0 |
 | QuestLine | 3 | 3 | 0 |
-| AreaTable | 1375 | 163 | 6 |
-| Map | 73 | 15 | 0 |
-| LFGDungeons | 71 | 4 | 0 |
+| AreaTable | 1404 | 192 | 6 |
+| Map | 78 | 20 | 0 |
+| LFGDungeons | 76 | 9 | 0 |
 
-## Dungeons / raids (4)
+## Dungeons / raids (9)
 
 | ID | Status | Name | Levels |
 |---|---|---|---|
@@ -22,8 +22,13 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 3272 | new | Ruins of Lordaeron | null-null |
 | 3273 | new | Hall of Thanes | null-null |
 | 3274 | new | Excavation Site: Wetlands | null-null |
+| 3267 | new | The Shaper's Terrace | NaN-NaN |
+| 3268 | new | Blackmaw Hold | NaN-NaN |
+| 3269 | new | Alcaz Prison | NaN-NaN |
+| 3270 | new | The Drowned City | NaN-NaN |
+| 3275 | new | Krol'dok Stronghold | NaN-NaN |
 
-## Maps (15)
+## Maps (20)
 
 | ID | Status | Name | Players |
 |---|---|---|---|
@@ -42,8 +47,13 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 2995 | new | Hyjal Crater | 0 |
 | 3217 | new | Dalaran Skycuter | 0 |
 | 3218 | new | Mulgore Skycuter | 0 |
+| 2970 | new | The Drowned City | 0 |
+| 2974 | new | Blackmaw Hold | 0 |
+| 2994 | new | Alcaz Prison | 0 |
+| 3001 | new | The Shaper's Terrace | 0 |
+| 3039 | new | Krol'dok Stronghold | 0 |
 
-## Zones / areas (169)
+## Zones / areas (198)
 
 | ID | Status | Name |
 |---|---|---|
@@ -216,6 +226,35 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 17847 | new | Twilight Hollow |
 | 17852 | new | Hyjal Crater |
 | 17853 | new | Sunken Hollow |
+| 16550 | new | The Drowned City |
+| 16554 | new | Blackmaw Hold |
+| 16619 | new | Excavation Site - Bael Modan |
+| 16620 | new | Alcaz Prison |
+| 16667 | new | The Shaper's Terrace |
+| 16842 | new | Krol'dok Stronghold |
+| 16928 | new | Shaper's Plateau |
+| 16929 | new | Pillar of Assimilation |
+| 16930 | new | The Verdant Plains |
+| 16931 | new | Lost Tar Pits |
+| 16932 | new | Ruby Spring |
+| 16933 | new | Walk of Communion |
+| 16934 | new | The Highlands Causeway |
+| 16935 | new | Watcher's Overlook |
+| 16937 | new | Botanical Grounds |
+| 17036 | new | Crystalline Highlands |
+| 17037 | new | Sunken Hollow |
+| 17038 | new | Flooded Shrine |
+| 17039 | new | Deep Archives |
+| 17040 | new | Altar of the Serpent |
+| 17041 | new | Eternal Amphitheater |
+| 17042 | new | Abyssal Dais |
+| 17043 | new | The Unsinkable |
+| 17046 | new | Ataal'Byzal |
+| 17309 | new | Defiled Peak |
+| 17310 | new | Festering Grotto |
+| 17311 | new | Blackmaw Grove |
+| 17312 | new | Blackmaw Stillwater |
+| 17313 | new | Bonesnout's Thicket |
 
 ## Quest lines (3)
 
@@ -225,7 +264,7 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 6026 | new | Toxic Soil | 0 |
 | 6293 | new | PvP Season Journey | 0 |
 
-## Items (5700)
+## Items (5717)
 
 | ID | Status | Name | Quality | iLvl | Req | Changes |
 |---|---|---|---|---|---|---|
@@ -530,9 +569,9 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 15109 | changed | Staff of Soran'ruk | Rare | 25 | 0 | OverallQualityID: 2→3 |
 | 15401 | changed | Welldrip Gloves | Uncommon | 14 | 0 | OverallQualityID: 1→2 |
 
-…and 5400 more in pending.json
+…and 5417 more in pending.json
 
-## Quest IDs (names aren't in client data) (1811)
+## Quest IDs (names aren't in client data) (1821)
 
 | ID | Status | Quest line | Wowhead |
 |---|---|---|---|
@@ -837,4 +876,4 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 92707 | new |  | https://www.wowhead.com/classic/quest=92707 |
 | 92708 | new |  | https://www.wowhead.com/classic/quest=92708 |
 
-…and 1511 more in pending.json
+…and 1521 more in pending.json

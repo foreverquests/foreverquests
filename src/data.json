@@ -6214,6 +6214,84 @@
       "auto": "item:275984",
       "idx": 445,
       "img": "133352.webp"
+    },
+    {
+      "slug": "the-drowned-city",
+      "name": "The Drowned City",
+      "type": "Zone",
+      "patch": "launch",
+      "desc": "New zone found in the Forever 1.60.1.70862 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "zone:16550",
+      "idx": 446
+    },
+    {
+      "slug": "blackmaw-hold",
+      "name": "Blackmaw Hold",
+      "type": "Zone",
+      "patch": "launch",
+      "desc": "New zone found in the Forever 1.60.1.70862 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "zone:16554",
+      "idx": 447
+    },
+    {
+      "slug": "excavation-site-bael-modan",
+      "name": "Excavation Site - Bael Modan",
+      "type": "Zone",
+      "patch": "launch",
+      "desc": "New zone found in the Forever 1.60.1.70862 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "zone:16619",
+      "idx": 448
+    },
+    {
+      "slug": "alcaz-prison",
+      "name": "Alcaz Prison",
+      "type": "Zone",
+      "patch": "launch",
+      "desc": "New zone found in the Forever 1.60.1.70862 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "zone:16620",
+      "idx": 449
+    },
+    {
+      "slug": "the-shaper-s-terrace",
+      "name": "The Shaper's Terrace",
+      "type": "Zone",
+      "patch": "launch",
+      "desc": "New zone found in the Forever 1.60.1.70862 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "zone:16667",
+      "idx": 450
+    },
+    {
+      "slug": "krol-dok-stronghold",
+      "name": "Krol'dok Stronghold",
+      "type": "Zone",
+      "patch": "launch",
+      "desc": "New zone found in the Forever 1.60.1.70862 game files.",
+      "src": [
+        "G"
+      ],
+      "unknown": "Found in datamined game files; details may change before launch.",
+      "auto": "zone:16842",
+      "idx": 451
     }
   ],
   "patches": [

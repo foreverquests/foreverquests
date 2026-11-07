@@ -429,3 +429,12 @@
 - [Item] Warden's Signet of Brilliance (idx 443)
 - [Item] Warden's Signet of Resolve (idx 444)
 - [Item] Warden's Signet of Vigilance (idx 445)
+
+## 2026-11-07 · Forever 1.60.1.70862
+
+- [Zone] The Drowned City (idx 446)
+- [Zone] Blackmaw Hold (idx 447)
+- [Zone] Excavation Site - Bael Modan (idx 448)
+- [Zone] Alcaz Prison (idx 449)
+- [Zone] The Shaper's Terrace (idx 450)
+- [Zone] Krol'dok Stronghold (idx 451)
