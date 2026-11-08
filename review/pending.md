@@ -1,7 +1,7 @@
 # ForeverScout review queue
 
-Forever **1.60.1.70862** vs Classic Era **1.15.9.70576** · updated 2026-11-07T16:48:38.799Z
-Data: [wago.tools](https://wago.tools). This run surfaced **81** new candidates.
+Forever **1.60.1.70862** vs Classic Era **1.15.9.70576** · updated 2026-11-08T16:47:55.489Z
+Data: [wago.tools](https://wago.tools). This run surfaced **0** new candidates.
 
 To publish: add the entry to `src/data.json` with the next free `idx` (never reuse/renumber), then delete it from `review/pending.json` (or leave it; state prevents re-surfacing).
 
@@ -22,11 +22,11 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 3272 | new | Ruins of Lordaeron | null-null |
 | 3273 | new | Hall of Thanes | null-null |
 | 3274 | new | Excavation Site: Wetlands | null-null |
-| 3267 | new | The Shaper's Terrace | NaN-NaN |
-| 3268 | new | Blackmaw Hold | NaN-NaN |
-| 3269 | new | Alcaz Prison | NaN-NaN |
-| 3270 | new | The Drowned City | NaN-NaN |
-| 3275 | new | Krol'dok Stronghold | NaN-NaN |
+| 3267 | new | The Shaper's Terrace | null-null |
+| 3268 | new | Blackmaw Hold | null-null |
+| 3269 | new | Alcaz Prison | null-null |
+| 3270 | new | The Drowned City | null-null |
+| 3275 | new | Krol'dok Stronghold | null-null |
 
 ## Maps (20)
 
