@@ -1,13 +1,13 @@
 # ForeverScout review queue
 
-Forever **1.60.1.70862** vs Classic Era **1.15.9.70576** · updated 2026-11-09T17:18:37.441Z
-Data: [wago.tools](https://wago.tools). This run surfaced **0** new candidates.
+Forever **1.60.1.70888** vs Classic Era **1.15.9.70576** · updated 2026-11-10T17:00:23.637Z
+Data: [wago.tools](https://wago.tools). This run surfaced **2** new candidates.
 
 To publish: add the entry to `src/data.json` with the next free `idx` (never reuse/renumber), then delete it from `review/pending.json` (or leave it; state prevents re-surfacing).
 
 | Table | Forever rows | New | Changed |
 |---|---|---|---|
-| ItemSparse | 19324 | 5073 | 635 |
+| ItemSparse | 19325 | 5074 | 635 |
 | QuestV2 | 6626 | 1821 | 0 |
 | QuestLine | 3 | 3 | 0 |
 | AreaTable | 1404 | 192 | 6 |
@@ -264,7 +264,7 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 6026 | new | Toxic Soil | 0 |
 | 6293 | new | PvP Season Journey | 0 |
 
-## Items (5717)
+## Items (5718)
 
 | ID | Status | Name | Quality | iLvl | Req | Changes |
 |---|---|---|---|---|---|---|
@@ -569,7 +569,7 @@ To publish: add the entry to `src/data.json` with the next free `idx` (never reu
 | 15109 | changed | Staff of Soran'ruk | Rare | 25 | 0 | OverallQualityID: 2→3 |
 | 15401 | changed | Welldrip Gloves | Uncommon | 14 | 0 | OverallQualityID: 1→2 |
 
-…and 5417 more in pending.json
+…and 5418 more in pending.json
 
 ## Quest IDs (names aren't in client data) (1821)
 

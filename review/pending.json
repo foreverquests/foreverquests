@@ -34971,20 +34971,6 @@
    "firstSeen": "2026-10-16"
   },
   {
-   "key": "item:259891",
-   "kind": "item",
-   "id": 259891,
-   "status": "new",
-   "label": "Berdun's Trusty Rifle",
-   "name": "Berdun's Trusty Rifle",
-   "quality": "Uncommon",
-   "itemLevel": 48,
-   "reqLevel": 0,
-   "build": "1.60.1.70245",
-   "wowhead": "https://www.wowhead.com/classic/item=259891",
-   "firstSeen": "2026-10-16"
-  },
-  {
    "key": "item:259892",
    "kind": "item",
    "id": 259892,
@@ -106386,16 +106372,44 @@
    "build": "1.60.1.70862",
    "firstSeen": "2026-11-07",
    "published": true
+  },
+  {
+   "key": "item:259891",
+   "kind": "item",
+   "id": 259891,
+   "status": "new",
+   "label": "Berdun's Trusty Rifle",
+   "name": "Berdun's Trusty Rifle",
+   "quality": "Uncommon",
+   "itemLevel": 48,
+   "reqLevel": 45,
+   "build": "1.60.1.70888",
+   "wowhead": "https://www.wowhead.com/classic/item=259891",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "key": "item:290333",
+   "kind": "item",
+   "id": 290333,
+   "status": "new",
+   "label": "Berdun's Trusty Rifle",
+   "name": "Berdun's Trusty Rifle",
+   "quality": "Uncommon",
+   "itemLevel": 48,
+   "reqLevel": 0,
+   "build": "1.60.1.70888",
+   "wowhead": "https://www.wowhead.com/classic/item=290333",
+   "firstSeen": "2026-11-10"
   }
  ],
- "foreverBuild": "1.60.1.70862",
+ "foreverBuild": "1.60.1.70888",
  "eraBuild": "1.15.9.70576",
- "updated": "2026-11-09T17:18:37.441Z",
+ "updated": "2026-11-10T17:00:23.637Z",
  "summary": {
   "ItemSparse": {
-   "forever": 19324,
+   "forever": 19325,
    "era": 24442,
-   "new": 5073,
+   "new": 5074,
    "changed": 635
   },
   "QuestV2": {
