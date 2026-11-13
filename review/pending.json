@@ -106400,17 +106400,38 @@
    "build": "1.60.1.70888",
    "wowhead": "https://www.wowhead.com/classic/item=290333",
    "firstSeen": "2026-11-10"
+  },
+  {
+   "key": "item:21547",
+   "kind": "item",
+   "id": 21547,
+   "status": "changed",
+   "label": "Recipe: Elixir of Holy Power",
+   "name": "Recipe: Elixir of Holy Power",
+   "quality": "Uncommon",
+   "itemLevel": 50,
+   "reqLevel": 0,
+   "build": "1.60.1.70938",
+   "wowhead": "https://www.wowhead.com/classic/item=21547",
+   "firstSeen": "2026-11-13",
+   "changes": [
+    {
+     "field": "Display_lang",
+     "era": "Recipe: Elixir of Greater Firepower",
+     "forever": "Recipe: Elixir of Holy Power"
+    }
+   ]
   }
  ],
- "foreverBuild": "1.60.1.70888",
+ "foreverBuild": "1.60.1.70938",
  "eraBuild": "1.15.9.70576",
- "updated": "2026-11-12T17:12:28.650Z",
+ "updated": "2026-11-13T17:02:11.687Z",
  "summary": {
   "ItemSparse": {
    "forever": 19325,
    "era": 24442,
    "new": 5074,
-   "changed": 635
+   "changed": 636
   },
   "QuestV2": {
    "forever": 6626,
