@@ -106423,12 +106423,12 @@
    ]
   }
  ],
- "foreverBuild": "1.60.1.70938",
+ "foreverBuild": "1.60.1.70959",
  "eraBuild": "1.15.9.70576",
- "updated": "2026-11-17T00:14:39.871Z",
+ "updated": "2026-11-17T23:30:15.271Z",
  "summary": {
   "ItemSparse": {
-   "forever": 19325,
+   "forever": 19326,
    "era": 24442,
    "new": 5074,
    "changed": 636
