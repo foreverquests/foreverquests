@@ -106514,16 +106514,30 @@
    "build": "1.60.1.71037",
    "wowhead": "https://www.wowhead.com/classic/item=291005",
    "firstSeen": "2026-11-20"
+  },
+  {
+   "key": "item:291874",
+   "kind": "item",
+   "id": 291874,
+   "status": "new",
+   "label": "Ruined Herb Seeds",
+   "name": "Ruined Herb Seeds",
+   "quality": "Poor",
+   "itemLevel": 1,
+   "reqLevel": 0,
+   "build": "1.60.1.71091",
+   "wowhead": "https://www.wowhead.com/classic/item=291874",
+   "firstSeen": "2026-11-25"
   }
  ],
- "foreverBuild": "1.60.1.71037",
+ "foreverBuild": "1.60.1.71091",
  "eraBuild": "1.15.9.70576",
- "updated": "2026-11-24T02:54:24.734Z",
+ "updated": "2026-11-25T00:43:55.215Z",
  "summary": {
   "ItemSparse": {
-   "forever": 19400,
+   "forever": 19401,
    "era": 24442,
-   "new": 5075,
+   "new": 5076,
    "changed": 640
   },
   "QuestV2": {
