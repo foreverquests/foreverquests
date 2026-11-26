@@ -47934,20 +47934,6 @@
    "firstSeen": "2026-10-16"
   },
   {
-   "key": "item:272432",
-   "kind": "item",
-   "id": 272432,
-   "status": "new",
-   "label": "Totem of the Storm",
-   "name": "Totem of the Storm",
-   "quality": "Rare",
-   "itemLevel": 65,
-   "reqLevel": 60,
-   "build": "1.60.1.70245",
-   "wowhead": "https://www.wowhead.com/classic/item=272432",
-   "firstSeen": "2026-10-16"
-  },
-  {
    "key": "item:272433",
    "kind": "item",
    "id": 272433,
@@ -106528,17 +106514,52 @@
    "build": "1.60.1.71091",
    "wowhead": "https://www.wowhead.com/classic/item=291874",
    "firstSeen": "2026-11-25"
+  },
+  {
+   "key": "item:11423",
+   "kind": "item",
+   "id": 11423,
+   "status": "changed",
+   "label": "Gnome Engineer's Renewal Gift",
+   "name": "Gnome Engineer's Renewal Gift",
+   "quality": "Common",
+   "itemLevel": 1,
+   "reqLevel": 0,
+   "build": "1.60.1.71139",
+   "wowhead": "https://www.wowhead.com/classic/item=11423",
+   "firstSeen": "2026-11-26",
+   "changes": [
+    {
+     "field": "ItemLevel",
+     "era": "0",
+     "forever": "1"
+    }
+   ]
+  },
+  {
+   "key": "item:272432",
+   "kind": "item",
+   "id": 272432,
+   "status": "new",
+   "label": "Totem of the Maelstrom",
+   "name": "Totem of the Maelstrom",
+   "quality": "Rare",
+   "itemLevel": 65,
+   "reqLevel": 60,
+   "build": "1.60.1.71139",
+   "wowhead": "https://www.wowhead.com/classic/item=272432",
+   "firstSeen": "2026-11-26"
   }
  ],
- "foreverBuild": "1.60.1.71091",
+ "foreverBuild": "1.60.1.71139",
  "eraBuild": "1.15.9.70576",
- "updated": "2026-11-25T00:43:55.215Z",
+ "updated": "2026-11-26T00:20:19.171Z",
  "summary": {
   "ItemSparse": {
-   "forever": 19401,
+   "forever": 19403,
    "era": 24442,
    "new": 5076,
-   "changed": 640
+   "changed": 641
   },
   "QuestV2": {
    "forever": 6626,
